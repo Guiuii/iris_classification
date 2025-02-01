@@ -1,0 +1,27 @@
+data:
+  path: "data/iris.csv"
+  test_size: 0.3
+  random_state: 18
+
+preprocessing:
+  generate_plots: True
+
+models:
+  linear_regression:
+    enable: True
+    model_dir: "models/linear_regression"
+    plots_dir: "plots/linear_regression"
+
+  logistic_regression:
+    enable: True
+    model_dir: "models/logistic_regression"
+    plots_dir: "plots/logistic_regression"
+
+  svm:
+    enable: True
+    kernels: ['linear', 'rbf', 'poly']
+    model_dir: "models/svm"
+    plots_dir: "plots/svm"
+    params:
+      poly:
+        degree: 3
