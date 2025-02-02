@@ -1,0 +1,9 @@
+
+pandas==1.5.3             # Совместима с numpy>=1.20.3
+numpy==1.23.5             # Базовая версия для всех пакетов
+scikit-learn==1.4.1       # Требует numpy>=1.19.5 и scipy>=1.6.0
+scipy==1.13.0             # Совместима с numpy>=1.21.6
+matplotlib==3.8.4         # Работает с numpy>=1.21
+seaborn==0.13.2           # Совместима с pandas>=1.2, matplotlib>=3.5
+PyYAML==6.0.1             # Для загрузки config.yaml
+joblib==1.4.2             # Используется scikit-learn для сохранения моделей
